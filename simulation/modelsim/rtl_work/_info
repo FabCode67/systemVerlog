@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\fab\Documents\academics\lab2\simulation\modelsim
+vmux4to1_32bit
+!i10b 1
+!s100 >I8f:Z4:_`IEgO`G6li<S2
+I9FV;ZMd4CX2I]V`Y_E2i82
+VFM3YZ3f<@dKXF^A:5OQlH0
+Z1 dC:\Users\fab\Documents\academics\lab2\simulation\modelsim
+Z2 w1714254563
+Z3 8C:/Users/fab/Documents/academics/lab2/mux4to1_32bit.v
+Z4 FC:/Users/fab/Documents/academics/lab2/mux4to1_32bit.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1714254677.967000
+Z7 !s107 C:/Users/fab/Documents/academics/lab2/mux4to1_32bit.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fab/Documents/academics/lab2|C:/Users/fab/Documents/academics/lab2/mux4to1_32bit.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/fab/Documents/academics/lab2 -O0
+vmux4to1_32bit_tb
+!i10b 1
+!s100 4f97;QU=b]__:_zTE>of[1
+IRFH7_2hg=S6^DW4Zk`Ok]0
+VTW3_NDZWZU<40aS:lo6TB2
+R1
+R2
+R3
+R4
+L0 20
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10

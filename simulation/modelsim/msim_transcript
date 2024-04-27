@@ -1,0 +1,60 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MIPS_work_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/fab/Documents/academics/lab2 {C:/Users/fab/Documents/academics/lab2/mux4to1_32bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4to1_32bit
+# -- Compiling module mux4to1_32bit_tb
+# 
+# Top level modules:
+# 	mux4to1_32bit_tb
+# 
+vsim -voptargs=+acc work.mux4to1_32bit_tb
+# vsim -voptargs=+acc work.mux4to1_32bit_tb 
+# Loading work.mux4to1_32bit_tb
+# Loading work.mux4to1_32bit
+add wave -position insertpoint  \
+sim:/mux4to1_32bit_tb/WIDTH \
+sim:/mux4to1_32bit_tb/ITERATIONS \
+sim:/mux4to1_32bit_tb/A \
+sim:/mux4to1_32bit_tb/B \
+sim:/mux4to1_32bit_tb/C \
+sim:/mux4to1_32bit_tb/D \
+sim:/mux4to1_32bit_tb/Select \
+sim:/mux4to1_32bit_tb/Y \
+sim:/mux4to1_32bit_tb/clk
+run
+# Time=0, A=12153524, B=c0895e81, C=8484d609, D=b1f05663, Select=00, Y=12153524
+run
+# Result: Y=12153524
+# Time=10000, A=06b97b0d, B=46df998d, C=b2c28465, D=89375212, Select=01, Y=46df998d
+# Result: Y=46df998d
+# Time=20000, A=00f3e301, B=06d7cd0d, C=3b23f176, D=1e8dcd3d, Select=01, Y=06d7cd0d
+# Result: Y=06d7cd0d
+# Time=30000, A=76d457ed, B=462df78c, C=7cfde9f9, D=e33724c6, Select=00, Y=76d457ed
+# Result: Y=76d457ed
+# Time=40000, A=e2f784c5, B=d513d2aa, C=72aff7e5, D=bbd27277, Select=11, Y=bbd27277
+# Result: Y=bbd27277
+# Time=50000, A=8932d612, B=47ecdb8f, C=793069f2, D=e77696ce, Select=00, Y=8932d612
+# Result: Y=8932d612
+# Time=60000, A=f4007ae8, B=e2ca4ec5, C=2e58495c, D=de8e28bd, Select=00, Y=f4007ae8
+# Result: Y=f4007ae8
+# Time=70000, A=96ab582d, B=b2a72665, C=b1ef6263, D=0573870a, Select=00, Y=96ab582d
+# Result: Y=96ab582d
+# Time=80000, A=c03b2280, B=10642120, C=557845aa, D=cecccc9d, Select=00, Y=c03b2280
+# Result: Y=c03b2280
+# Time=90000, A=cb203e96, B=8983b813, C=86bc380d, D=a9a7d653, Select=00, Y=cb203e96
+# Result: Y=cb203e96
+# ** Note: $finish    : C:/Users/fab/Documents/academics/lab2/mux4to1_32bit.v(71)
+#    Time: 100 ns  Iteration: 0  Instance: /mux4to1_32bit_tb
+# 1
+# Break in Module mux4to1_32bit_tb at C:/Users/fab/Documents/academics/lab2/mux4to1_32bit.v line 71
